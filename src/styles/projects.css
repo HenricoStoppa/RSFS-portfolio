@@ -1,0 +1,68 @@
+/* PROJECTS */
+#projects-container {
+    background-color: var(--gray-200);
+}
+
+.projects-subtitle {
+    font: 100 20px "Inconsolata", sans-serif;
+    color: var(--red);
+    line-height: 120%;
+}
+
+.projects-title {
+    font: bold 20px "Maven Pro", sans-serif;
+    color: var(--gray-600);
+    line-height: 120%;
+
+    margin-bottom: 56px;
+}
+
+.projects-grid {
+    width: 50vw;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.project {
+    background-color: var(--gray-300);
+
+    padding: 12px;
+
+    border: 2px solid var(--gray-300);
+    border-radius: 10px;
+
+    transition: 200ms;
+}
+
+.project:hover {
+    border: 2px solid var(--gray-400);
+}
+
+.project-banner {
+    height: 150px;
+    width: 300px;
+
+    border-radius: 10px;
+}
+
+.project-name {
+    font: bold 16px "Asap", sans-serif;
+    color: var(--gray-600);
+    line-height: 120%;
+
+    text-align: left;
+
+    margin-top: 20px;
+}
+
+.project-description {
+    font: 100 14px "Asap", sans-serif;
+    color: var(--gray-500);
+    line-height: 140%;
+
+    text-align: left;
+
+    margin-top: 12px;
+}

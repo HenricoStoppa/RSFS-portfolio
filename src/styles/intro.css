@@ -1,0 +1,65 @@
+/* INTRO */
+#intro-container {
+    background-image: url("../images/Background_Intro.png");
+    background-size: cover;
+}
+
+.info-header {
+    width: 680px;
+
+    margin-bottom: 80px;
+}
+
+.info-subtitle {
+    font: 400 20px "Inconsolata", sans-serif;
+    color: var(--gray-500);
+    line-height: 120%;
+
+    margin-top: 56px;
+}
+
+.info-subtitle-span {
+    color: var(--red);
+}
+
+.info-title {
+    font: bold 56px "Asap", sans-serif;
+    color: var(--gray-600);
+    line-height: 120%;
+
+    padding: 15px;
+}
+
+.info-text {
+    font: 100 14px "Maven Pro", sans-serif;
+    color: var(--gray-400);
+    line-height: 140%;
+}
+
+.caret-double-down {
+    height: 32px;
+    width: 32px;
+}
+
+.tags {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 90px;
+}
+
+.tag {
+    background-color: var(--gray-300);
+
+    font: 400 16px "Maven Pro", sans-serif;
+    color: var(--gray-500);
+    line-height: 140%;
+
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+
+    padding: 5px 13px;
+
+    border-radius: 50px;
+}

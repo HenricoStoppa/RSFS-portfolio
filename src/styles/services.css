@@ -1,0 +1,51 @@
+/* SERVICES */
+#services-container {
+    background-color: var(--gray-100);
+}
+
+.services-subtitle {
+    font: 100 20px "Inconsolata", sans-serif;
+    color: var(--red);
+    line-height: 120%;
+}
+
+.services-title {
+    font: bold 20px "Maven Pro", sans-serif;
+    color: var(--gray-600);
+    line-height: 120%;
+
+    margin-bottom: 56px;
+}
+
+.services-grid {
+    width: 50vw;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.service {
+    text-align: left;
+
+    padding: 10px;
+
+    border: 2px solid var(--gray-200);
+    border-radius: 10px;
+}
+
+.service-name {
+    font: bold 16px "Asap", sans-serif;
+    color: var(--gray-600);
+    line-height: 120%;
+
+    margin-top: 20px;
+}
+
+.service-description {
+    font: 100 14px "Asap", sans-serif;
+    color: var(--gray-500);
+    line-height: 140%;
+
+    margin-top: 12px;
+}
