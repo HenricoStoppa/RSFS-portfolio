@@ -5,11 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfólio</title>
 
-        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./src/styles/index.css" />
     </head>
     <body>
         <main id="main-container">
-            <div id="intro-container">
+            <section id="intro-container">
                 <div class="info">
                     <div class="info-header">
                         <img
@@ -94,20 +100,20 @@
                 </div>
 
                 <img
-                    class="Caret-Double-Down"
+                    class="caret-double-down"
                     src="./src/assets/Caret-Double-Down.svg"
                     alt="Setas para baixo"
                 />
-            </div>
+            </section>
 
-            <div id="projects-container">
+            <section id="projects-container">
                 <div class="projects-header">
                     <span class="projects-subtitle">Meu trabalho</span>
                     <h2 class="projects-title">Veja os projetos em destaque</h2>
                 </div>
 
                 <div class="projects-grid">
-                    <div class="project">
+                    <a class="project" href="#" target="_blank">
                         <img
                             class="project-banner"
                             src="./src/images/Thumbnail_Project-01.png"
@@ -119,9 +125,9 @@
                             Rede social onde as pessoas mostram os registros de
                             suas viagens pelo mundo
                         </p>
-                    </div>
+                    </a>
 
-                    <div class="project">
+                    <a class="project" href="#" target="_blank">
                         <img
                             class="project-banner"
                             src="./src/images/Thumbnail_Project-02.png"
@@ -133,9 +139,9 @@
                             Homepage de um portal de notícias sobre a área de
                             tecnologia
                         </p>
-                    </div>
+                    </a>
 
-                    <div class="project">
+                    <a class="project" href="#" target="_blank">
                         <img
                             class="project-banner"
                             src="./src/images/Thumbnail_Project-03.png"
@@ -147,9 +153,9 @@
                             Página com o passo a passo de uma receita para
                             cupcakes
                         </p>
-                    </div>
+                    </a>
 
-                    <div class="project">
+                    <a class="project" href="#" target="_blank">
                         <img
                             class="project-banner"
                             src="./src/images/Thumbnail_Project-04.png"
@@ -161,9 +167,9 @@
                             Landing Page completa e responsiva de um aplicativo
                             de Karaokê
                         </p>
-                    </div>
+                    </a>
 
-                    <div class="project">
+                    <a class="project" href="#" target="_blank">
                         <img
                             class="project-banner"
                             src="./src/images/Thumbnail_Project-05.png"
@@ -174,9 +180,9 @@
                         <p class="project-description">
                             Um sistema para pedido e acompanhamento de reembolso
                         </p>
-                    </div>
+                    </a>
 
-                    <div class="project">
+                    <a class="project" href="#" target="_blank">
                         <img
                             class="project-banner"
                             src="./src/images/Thumbnail_Project-06.png"
@@ -188,11 +194,11 @@
                             Página com as principais informações para quem quer
                             viajar para Busan
                         </p>
-                    </div>
+                    </a>
                 </div>
-            </div>
+            </section>
 
-            <div id="services-container">
+            <section id="services-container">
                 <div class="services-header">
                     <span class="services-subtitle">Meu serviços</span>
                     <h2 class="services-title">
@@ -240,26 +246,28 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div id="contact-container">
-                <div class="contact-header">
-                    <span class="contact-subtitle">Contato</span>
-                    <h2 class="contact-title">Gostou do meu trabalho?</h2>
-                    <p class="contact-description">
+            <section id="contacts-container">
+                <div class="contacts-header">
+                    <span class="contacts-subtitle">Contato</span>
+                    <h2 class="contacts-title">Gostou do meu trabalho?</h2>
+                    <p class="contacts-description">
                         Entre em contato ou acompanhe as minhas redes sociais!
                     </p>
                 </div>
 
-                <div class="contact-list">
+                <div class="contacts-list">
                     <a class="contact" href="#" target="_blank">
-                        <img
-                            class="contact-logo"
-                            src="./src/assets/LinkedinLogo.svg"
-                            alt="Logo do Contato"
-                        />
+                        <span class="contact-id">
+                            <img
+                                class="contact-logo"
+                                src="./src/assets/LinkedinLogo.svg"
+                                alt="Logo do Contato"
+                            />
 
-                        <p class="contact-name">Linkedin</p>
+                            <p class="contact-name">Linkedin</p>
+                        </span>
 
                         <img
                             class="contact-arrow"
@@ -269,29 +277,15 @@
                     </a>
 
                     <a class="contact" href="#" target="_blank">
-                        <img
-                            class="contact-logo"
-                            src="./src/assets/InstagramLogo.svg"
-                            alt="Logo do Contato"
-                        />
+                        <span class="contact-id">
+                            <img
+                                class="contact-logo"
+                                src="./src/assets/InstagramLogo.svg"
+                                alt="Logo do Contato"
+                            />
 
-                        <p class="contact-name">Instagram</p>
-
-                        <img
-                            class="contact-arrow"
-                            src="./src/assets/ArrowUpRight.svg"
-                            alt="Seta de Redirecionamento"
-                        />
-                    </a>
-
-                    <a class="contact" href="#" target="_blank">
-                        <img
-                            class="contact-logo"
-                            src="./src/assets/GithubLogo.svg"
-                            alt="Logo do Contato"
-                        />
-
-                        <p class="contact-name">Github</p>
+                            <p class="contact-name">Instagram</p>
+                        </span>
 
                         <img
                             class="contact-arrow"
@@ -301,13 +295,33 @@
                     </a>
 
                     <a class="contact" href="#" target="_blank">
-                        <img
-                            class="contact-logo"
-                            src="./src/assets/EnvelopeSimple.svg"
-                            alt="Logo do Contato"
-                        />
+                        <span class="contact-id">
+                            <img
+                                class="contact-logo"
+                                src="./src/assets/GithubLogo.svg"
+                                alt="Logo do Contato"
+                            />
 
-                        <p class="contact-name">E-mail</p>
+                            <p class="contact-name">Github</p>
+                        </span>
+
+                        <img
+                            class="contact-arrow"
+                            src="./src/assets/ArrowUpRight.svg"
+                            alt="Seta de Redirecionamento"
+                        />
+                    </a>
+
+                    <a class="contact" href="#" target="_blank">
+                        <span class="contact-id">
+                            <img
+                                class="contact-logo"
+                                src="./src/assets/EnvelopeSimple.svg"
+                                alt="Logo do Contato"
+                            />
+
+                            <p class="contact-name">E-mail</p>
+                        </span>
 
                         <img
                             class="contact-arrow"
@@ -316,7 +330,7 @@
                         />
                     </a>
                 </div>
-            </div>
+            </section>
         </main>
     </body>
 </html>
